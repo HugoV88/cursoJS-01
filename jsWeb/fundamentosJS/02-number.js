@@ -72,7 +72,7 @@ toFixed es un método para determinar el número de decimales de un float que de
 */
 let decimal = 3.1231253573456234
 console.log("Determinando el número de decimales");
-console.log(decimal.toFixed(2));
+console.log(decimal.toFixed(2)); // 3.12
 console.log("\n");
 
 /* 
@@ -96,7 +96,7 @@ Math.abs es un método para convertir en valor absoluto el valor
 */
 
 console.log("Calculando el valor absoluto de un número negativo");
-console.log("Math.abs: ", Math.abs(-3));
+console.log("Math.abs: ", Math.abs(-3)); // 3
 console.log("\n");
 /* 
 ==============================================================================================
@@ -107,7 +107,7 @@ Math.pow es un método para calcular potencias
 */
 
 console.log("Calculando el valor de una potencia");
-console.log("Math.pow: ", Math.pow(8, 3));
+console.log("Math.pow: ", Math.pow(8, 3)); //512
 console.log("\n");
 
 /* 
@@ -119,8 +119,8 @@ Math.min y Math.max para determinar el número mínimo y máximo de una secuenci
 */
 
 console.log("Números mínimos y máximos");
-console.log("Math.min: ", Math.min(1, 2, 3, 4, 5, 6, 7, 8, 9));
-console.log("Math.max: ", Math.max(1, 2, 3, 4, 5, 6, 7, 8, 9));
+console.log("Math.min: ", Math.min(1, 2, 3, 4, 5, 6, 7, 8, 9)); // 1
+console.log("Math.max: ", Math.max(1, 2, 3, 4, 5, 6, 7, 8, 9)); // 9
 console.log("\n");
 
 /* 

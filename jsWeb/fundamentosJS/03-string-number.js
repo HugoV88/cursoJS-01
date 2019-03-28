@@ -28,5 +28,5 @@ CAMBIAR DE NUMBER A STRING
 (2)
 Estos métodos funcionan con números, arreglos, objetos y booleanos. No funciona con null, NaN y undefined
 */
-console.log(String(nomber));
-console.log(nomber.toString());
+console.log(String(nomber)); // "123124"
+console.log(nomber.toString()); // "123124"
